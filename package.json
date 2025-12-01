@@ -1,17 +1,12 @@
 {
-  "name": "nodews",
+  "name": "mcplayer",
   "version": "1.0.0",
-  "description": "Nodejs-server",
   "main": "index.js",
-  "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "ws": "^8.14.2",
-    "axios": "^1.12.2"
-  },
-  "engines": {
-    "node": ">=14"
+    "mineflayer": "^4.33.0",
+    "express": "^5.1.0"
   }
 }
