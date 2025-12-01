@@ -1,1 +1,542 @@
-function _0x5cfe(){const _0x1ce53c=['socketClosed','119424yWnTcQ','get','226770MnzwHR','kicked','spawn','Unexpected\x20buffer','disconnected','1061973tltgGT','port','delete','Bot\x20not\x20found','/api/bots/:id/reconnect','Chunk\x20size','stringify','status','Failed\x20to\x20create\x20bot:','[Persistence]\x20Bot\x20configuration\x20file\x20not\x20found.\x20Starting\x20fresh.','18nYaWNZ','exit','\x20bots...','822090WfwcCk','once','existsSync','408JLnlvV','bot_default_','params','serverInfo','code','PartialReadError','_client','toString',']\x20Reconnect\x20attempt\x20initiated.','ECONNRESET','now','46548IZtVki','utf8','stack','createBot','connecting','151.242.106.72','[AutoReconnect]\x20Bot\x20','error','uncaughtException','body','bot_','online','376378kJhdXV','unhandledRejection',']\x20Kicked:\x20','135.125.9.13','[Persistence]\x20Failed\x20to\x20read\x20or\x20parse\x20bot\x20configs:','Unexpected\x20buffer\x20end','<!DOCTYPE\x20html>\x0a<html\x20lang=\x22en\x22>\x0a<head>\x0a\x20\x20\x20\x20<meta\x20charset=\x22UTF-8\x22>\x0a\x20\x20\x20\x20<meta\x20name=\x22viewport\x22\x20content=\x22width=device-width,\x20initial-scale=1.0\x22>\x0a\x20\x20\x20\x20<title>Minecraft\x20Fake\x20Player\x20Manager</title>\x0a\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20*\x20{\x20margin:\x200;\x20padding:\x200;\x20box-sizing:\x20border-box;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Segoe\x20UI\x27,\x20Tahoma,\x20Geneva,\x20Verdana,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(135deg,\x20#667eea\x200%,\x20#764ba2\x20100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20min-height:\x20100vh;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.container\x20{\x20max-width:\x201200px;\x20margin:\x200\x20auto;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20h1\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x202.5em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-shadow:\x202px\x202px\x204px\x20rgba(0,0,0,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.add-form\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x2010px\x2030px\x20rgba(0,0,0,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.form-group\x20{\x20margin-bottom:\x2015px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20label\x20{\x20display:\x20block;\x20margin-bottom:\x205px;\x20font-weight:\x20bold;\x20color:\x20#333;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20input\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20100%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202px\x20solid\x20#ddd;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20input:focus\x20{\x20outline:\x20none;\x20border-color:\x20#667eea;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20button\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#667eea;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20button:hover\x20{\x20background:\x20#5568d3;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-list\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20grid;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20grid-template-columns:\x20repeat(auto-fill,\x20minmax(300px,\x201fr));\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-card\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x205px\x2015px\x20rgba(0,0,0,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-header\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x202px\x20solid\x20#f0f0f0;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-username\x20{\x20font-size:\x201.2em;\x20font-weight:\x20bold;\x20color:\x20#333;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.status\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x200.85em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.status.online\x20{\x20background:\x20#4caf50;\x20color:\x20white;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.status.connecting\x20{\x20background:\x20#ff9800;\x20color:\x20white;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.status.error,\x20.status.kicked\x20{\x20background:\x20#f44336;\x20color:\x20white;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.status.disconnected\x20{\x20background:\x20#9e9e9e;\x20color:\x20white;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-info\x20{\x20margin:\x2010px\x200;\x20color:\x20#666;\x20font-size:\x200.9em;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-actions\x20{\x20display:\x20flex;\x20gap:\x2010px;\x20margin-top:\x2015px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.bot-actions\x20button\x20{\x20flex:\x201;\x20padding:\x208px;\x20font-size:\x2014px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.delete-btn\x20{\x20background:\x20#f44336;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.delete-btn:hover\x20{\x20background:\x20#d32f2f;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.reconnect-btn\x20{\x20background:\x20#4caf50;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.reconnect-btn:hover\x20{\x20background:\x20#388e3c;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.error-message\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#f44336;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x200.85em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#ffebee;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x203px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20.empty-state\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x201.2em;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2050px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20</style>\x0a</head>\x0a<body>\x0a\x20\x20\x20\x20<div\x20class=\x22container\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<h1>🎮\x20Minecraft\x20Fake\x20Player\x20Manager</h1>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22add-form\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h2\x20style=\x22margin-bottom:\x2020px;\x22>Add\x20New\x20Bot</h2>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Server\x20Host:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22host\x22\x20placeholder=\x22e.g.,\x20syd.retslav.net\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Port:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22number\x22\x20id=\x22port\x22\x20placeholder=\x22e.g.,\x2010045\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22form-group\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label>Username:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20type=\x22text\x22\x20id=\x22username\x22\x20placeholder=\x22e.g.,\x20mcplayer\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20onclick=\x22addBot()\x22>➕\x20Add\x20Bot</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22botList\x22\x20class=\x22bot-list\x22></div>\x0a\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20<script>\x0a\x20\x20\x20\x20\x20\x20\x20\x20async\x20function\x20loadBots()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20try\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20response\x20=\x20await\x20fetch(\x27/api/bots\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20bots\x20=\x20await\x20response.json();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20botList\x20=\x20document.getElementById(\x27botList\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(bots.length\x20===\x200)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20botList.innerHTML\x20=\x20\x27<div\x20class=\x22empty-state\x22>No\x20active\x20bots.\x20Please\x20add\x20one.</div>\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20botList.innerHTML\x20=\x20bots.map(bot\x20=>\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20healthInfo\x20=\x20bot.status\x20===\x20\x27online\x27\x20?\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div>❤️\x20Health:\x20\x27\x20+\x20bot.health\x20+\x20\x27/20</div><div>🍖\x20Food:\x20\x27\x20+\x20bot.food\x20+\x20\x27/20</div>\x27\x20:\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20errorInfo\x20=\x20bot.error\x20?\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22error-message\x22>Error:\x20\x27\x20+\x20bot.error\x20+\x20\x27</div>\x27\x20:\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20\x27<div\x20class=\x22bot-card\x22>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22bot-header\x22>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22bot-username\x22>\x27\x20+\x20bot.username\x20+\x20\x27</div>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22status\x20\x27\x20+\x20bot.status\x20+\x20\x27\x22>\x27\x20+\x20getStatusText(bot.status)\x20+\x20\x27</div>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27</div>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22bot-info\x22><div>🌐\x20\x27\x20+\x20bot.host\x20+\x20\x27:\x27\x20+\x20bot.port\x20+\x20\x27</div>\x27\x20+\x20healthInfo\x20+\x20\x27</div>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20errorInfo\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<div\x20class=\x22bot-actions\x22>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<button\x20class=\x22reconnect-btn\x22\x20onclick=\x22reconnectBot(\x5c\x27\x27\x20+\x20bot.id\x20+\x20\x27\x5c\x27)\x22>🔄\x20Reconnect</button>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27<button\x20class=\x22delete-btn\x22\x20onclick=\x22deleteBot(\x5c\x27\x27\x20+\x20bot.id\x20+\x20\x27\x5c\x27)\x22>🗑️\x20Delete</button>\x27\x20+\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x27</div></div>\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}).join(\x27\x27);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20catch\x20(error)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20console.error(\x27Failed\x20to\x20load\x20bots:\x27,\x20error);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20function\x20getStatusText(status)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20map\x20=\x20{online:\x27Online\x27,connecting:\x27Connecting\x27,error:\x27Error\x27,kicked:\x27Kicked\x27,disconnected:\x27Disconnected\x27};\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20return\x20map[status]\x20||\x20status;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20async\x20function\x20addBot()\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20host\x20=\x20document.getElementById(\x27host\x27).value;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20port\x20=\x20document.getElementById(\x27port\x27).value;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20username\x20=\x20document.getElementById(\x27username\x27).value;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(!host\x20||\x20!port\x20||\x20!username)\x20{\x20alert(\x27Please\x20fill\x20in\x20all\x20fields\x27);\x20return;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20try\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20response\x20=\x20await\x20fetch(\x27/api/bots\x27,\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20method:\x20\x27POST\x27,\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20headers:\x20{\x20\x27Content-Type\x27:\x20\x27application/json\x27\x20},\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body:\x20JSON.stringify({\x20host,\x20port:\x20parseInt(port),\x20username\x20})\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(response.ok)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.getElementById(\x27host\x27).value\x20=\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.getElementById(\x27port\x27).value\x20=\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20document.getElementById(\x27username\x27).value\x20=\x20\x27\x27;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20loadBots();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20else\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20const\x20error\x20=\x20await\x20response.json();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alert(\x27Failed\x20to\x20add\x20bot:\x20\x27\x20+\x20error.error);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20catch\x20(error)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alert(\x27Failed\x20to\x20add\x20bot:\x20\x27\x20+\x20error.message);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20async\x20function\x20deleteBot(id)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20if\x20(!confirm(\x27Are\x20you\x20sure\x20you\x20want\x20to\x20delete\x20this\x20bot?\x27))\x20return;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20try\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20await\x20fetch(\x27/api/bots/\x27\x20+\x20id,\x20{\x20method:\x20\x27DELETE\x27\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20loadBots();\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20catch\x20(error)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alert(\x27Failed\x20to\x20delete\x20bot:\x20\x27\x20+\x20error.message);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20async\x20function\x20reconnectBot(id)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20try\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20await\x20fetch(\x27/api/bots/\x27\x20+\x20id\x20+\x20\x27/reconnect\x27,\x20{\x20method:\x20\x27POST\x27\x20});\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20//\x20确保有足够的延迟来等待后端\x202000ms\x20的重连操作\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20setTimeout(loadBots,\x202500);\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20catch\x20(error)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20alert(\x27Failed\x20to\x20reconnect\x20bot:\x20\x27\x20+\x20error.message);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20setInterval(loadBots,\x203000);\x0a\x20\x20\x20\x20\x20\x20\x20\x20loadBots();\x0a\x20\x20\x20\x20</script>\x0a</body>\x0a</html>','lastError','message','host','\x20minutes.','length','end','post','[AutoReconnect\x20-\x20','0.0.0.0','\x20default\x20bots...','[AutoReconnect]\x20No\x20active\x20bots\x20to\x20reconnect.','ENOTFOUND','listen','1336qYOmei','writeFileSync','\x20already\x20active,\x20skipping\x20creation.',']\x20Ending\x20connection...','191.96.231.5','_restored_','readFileSync','310cIIZRg','[Defaults]\x20Creating\x20','removeAllListeners','retslav002','bot_configs.json','random','🚀\x20Service\x20running\x20on\x20port\x20','has','spawnLogged','forEach','includes','health','Unhandled\x20Promise\x20Rejection:','/api/bots','success','mcserverhost002',']\x20Connection\x20ended:\x20','[Defaults]\x20Bot\x20','from','push','mineflayer','express','93261ZNPsAw','log','food','username','json','Missing\x20required\x20parameters','use'];_0x5cfe=function(){return _0x1ce53c;};return _0x5cfe();}const _0xe675ec=_0x2009;(function(_0x56272d,_0x255b22){const _0x4fc2d1=_0x2009,_0x14be00=_0x56272d();while(!![]){try{const _0x13c1c2=parseInt(_0x4fc2d1(0xf9))/0x1+parseInt(_0x4fc2d1(0x113))/0x2*(-parseInt(_0x4fc2d1(0xf6))/0x3)+-parseInt(_0x4fc2d1(0xe5))/0x4+-parseInt(_0x4fc2d1(0xe7))/0x5+-parseInt(_0x4fc2d1(0xfc))/0x6*(parseInt(_0x4fc2d1(0xdd))/0x7)+-parseInt(_0x4fc2d1(0x127))/0x8*(parseInt(_0x4fc2d1(0x107))/0x9)+-parseInt(_0x4fc2d1(0x12e))/0xa*(-parseInt(_0x4fc2d1(0xec))/0xb);if(_0x13c1c2===_0x255b22)break;else _0x14be00['push'](_0x14be00['shift']());}catch(_0x9bf15e){_0x14be00['push'](_0x14be00['shift']());}}}(_0x5cfe,0xcd4bb));const mineflayer=require(_0xe675ec(0xdb)),express=require(_0xe675ec(0xdc)),fs=require('fs'),app=express(),PORT=process['env']['PORT']||0x1eb4,BOT_CONFIG_FILE=_0xe675ec(0x132),DEFAULT_BOTS=[{'host':'syd.retslav.net','port':0x2811,'username':_0xe675ec(0x131)},{'host':_0xe675ec(0x10c),'port':0x62fc,'username':'vibegames002'},{'host':_0xe675ec(0x12b),'port':0x7572,'username':_0xe675ec(0x13d)},{'host':_0xe675ec(0x116),'port':0xb16,'username':'elementiamc002'}],activeBots=new Map();app[_0xe675ec(0xe3)](express[_0xe675ec(0xe1)]());function saveBotConfigs(){const _0x20b7d8=_0xe675ec,_0x1e9f35=[];activeBots[_0x20b7d8(0x137)](_0x55f835=>{const _0x43e7fb=_0x20b7d8;_0x1e9f35[_0x43e7fb(0xda)](_0x55f835[_0x43e7fb(0xff)]);});try{fs[_0x20b7d8(0x128)](BOT_CONFIG_FILE,JSON[_0x20b7d8(0xf2)](_0x1e9f35,null,0x2)),console['log']('[Persistence]\x20Saved\x20'+_0x1e9f35[_0x20b7d8(0x11e)]+'\x20bot\x20configurations.');}catch(_0x1968aa){console[_0x20b7d8(0x10e)]('[Persistence]\x20Failed\x20to\x20save\x20bot\x20configs:',_0x1968aa[_0x20b7d8(0x11b)]);}}function loadAndRestoreBots(){const _0x2634cc=_0xe675ec;if(!fs[_0x2634cc(0xfb)](BOT_CONFIG_FILE))return console[_0x2634cc(0xde)](_0x2634cc(0xf5)),![];try{const _0x303b2d=fs[_0x2634cc(0x12d)](BOT_CONFIG_FILE,_0x2634cc(0x108)),_0x27da08=JSON['parse'](_0x303b2d);return console['log']('[Persistence]\x20Attempting\x20to\x20restore\x20'+_0x27da08[_0x2634cc(0x11e)]+_0x2634cc(0xf8)),_0x27da08[_0x2634cc(0x137)](_0x33b553=>{const _0x9150e3=_0x2634cc,_0x5d339d='bot_'+Date['now']()+_0x9150e3(0x12c)+Math[_0x9150e3(0x133)]()[_0x9150e3(0x103)](0x24)['substring'](0x2,0x7);createBot(_0x5d339d,_0x33b553[_0x9150e3(0x11c)],_0x33b553[_0x9150e3(0xed)],_0x33b553[_0x9150e3(0xe0)]);}),_0x27da08['length']>0x0;}catch(_0x1935eb){return console[_0x2634cc(0x10e)](_0x2634cc(0x117),_0x1935eb[_0x2634cc(0x11b)]),![];}}function createDefaultBots(){const _0xbaa4fb=_0xe675ec;console['log'](_0xbaa4fb(0x12f)+DEFAULT_BOTS[_0xbaa4fb(0x11e)]+_0xbaa4fb(0x123)),DEFAULT_BOTS['forEach']((_0x1e2418,_0x317aec)=>{const _0x286a3a=_0xbaa4fb,_0x5c23ff=_0x286a3a(0xfd)+(_0x317aec+0x1);!activeBots[_0x286a3a(0x135)](_0x5c23ff)?createBot(_0x5c23ff,_0x1e2418[_0x286a3a(0x11c)],_0x1e2418['port'],_0x1e2418['username']):console[_0x286a3a(0xde)](_0x286a3a(0xd8)+_0x5c23ff+_0x286a3a(0x129));}),saveBotConfigs();}process['on'](_0xe675ec(0x10f),_0x59ddfb=>{const _0x3a3f43=_0xe675ec;if(_0x59ddfb[_0x3a3f43(0x11b)]&&(_0x59ddfb[_0x3a3f43(0x11b)]['includes']('PartialReadError')||_0x59ddfb[_0x3a3f43(0x11b)][_0x3a3f43(0x138)](_0x3a3f43(0x118))||_0x59ddfb[_0x3a3f43(0x11b)][_0x3a3f43(0x138)]('Chunk\x20size')))return;console[_0x3a3f43(0x10e)]('CRITICAL\x20UNCAUGHT\x20EXCEPTION\x20-\x20EXITING:',_0x59ddfb[_0x3a3f43(0x11b)],_0x59ddfb[_0x3a3f43(0x109)]),process[_0x3a3f43(0xf7)](0x1);}),process['on'](_0xe675ec(0x114),_0x2674fe=>{const _0x25b2ef=_0xe675ec;if(_0x2674fe&&_0x2674fe[_0x25b2ef(0x11b)]&&(_0x2674fe[_0x25b2ef(0x11b)][_0x25b2ef(0x138)]('PartialReadError')||_0x2674fe[_0x25b2ef(0x11b)]['includes'](_0x25b2ef(0x118))))return;console[_0x25b2ef(0x10e)](_0x25b2ef(0x13a),_0x2674fe);});function createBot(_0x2c526d,_0xbea06c,_0x1645ea,_0x4595c4){const _0x43ee77=_0xe675ec;try{const _0x29ab15=mineflayer[_0x43ee77(0x10a)]({'host':_0xbea06c,'port':_0x1645ea,'username':_0x4595c4,'version':![],'hideErrors':![],'checkTimeoutInterval':0xea60,'keepAlive':!![]});return _0x29ab15['customId']=_0x2c526d,_0x29ab15[_0x43ee77(0xff)]={'host':_0xbea06c,'port':_0x1645ea,'username':_0x4595c4},_0x29ab15['status']=_0x43ee77(0x10b),_0x29ab15[_0x43ee77(0x11a)]=null,_0x29ab15[_0x43ee77(0x136)]=![],_0x29ab15[_0x43ee77(0xfa)](_0x43ee77(0xe9),()=>{const _0x546736=_0x43ee77;!_0x29ab15[_0x546736(0x136)]&&(console[_0x546736(0xde)]('['+_0x2c526d+']\x20'+_0x4595c4+'\x20successfully\x20connected\x20to\x20'+_0xbea06c+':'+_0x1645ea),_0x29ab15[_0x546736(0x136)]=!![],_0x29ab15[_0x546736(0xf3)]=_0x546736(0x112),_0x29ab15[_0x546736(0x11a)]=null);}),_0x29ab15['on'](_0x43ee77(0x11f),_0x15b7a2=>{const _0x514e17=_0x43ee77;_0x15b7a2!==_0x514e17(0xe4)&&console[_0x514e17(0xde)]('['+_0x2c526d+_0x514e17(0xd7)+_0x15b7a2),_0x29ab15[_0x514e17(0xf3)]=_0x514e17(0xeb),_0x29ab15[_0x514e17(0x136)]=![];}),_0x29ab15['on'](_0x43ee77(0x10e),_0x245e3a=>{const _0x2827e2=_0x43ee77;if(_0x245e3a[_0x2827e2(0x11b)]&&(_0x245e3a['message'][_0x2827e2(0x138)](_0x2827e2(0x101))||_0x245e3a[_0x2827e2(0x11b)][_0x2827e2(0x138)](_0x2827e2(0x105))||_0x245e3a[_0x2827e2(0x11b)]['includes'](_0x2827e2(0xea))||_0x245e3a[_0x2827e2(0x11b)][_0x2827e2(0x138)](_0x2827e2(0xf1))))return;(_0x245e3a[_0x2827e2(0x100)]==='ECONNREFUSED'||_0x245e3a['code']===_0x2827e2(0x125)||_0x245e3a[_0x2827e2(0x100)]==='ETIMEDOUT')&&(console[_0x2827e2(0x10e)]('['+_0x2c526d+']\x20Connection\x20Error:\x20'+_0x245e3a[_0x2827e2(0x11b)]),_0x29ab15[_0x2827e2(0xf3)]=_0x2827e2(0x10e),_0x29ab15[_0x2827e2(0x11a)]=_0x245e3a[_0x2827e2(0x11b)]);}),_0x29ab15['on'](_0x43ee77(0xe8),_0x4e65ac=>{const _0x296a8b=_0x43ee77;console[_0x296a8b(0xde)]('['+_0x2c526d+_0x296a8b(0x115)+_0x4e65ac),_0x29ab15[_0x296a8b(0xf3)]='kicked',_0x29ab15['lastError']=_0x4e65ac,_0x29ab15[_0x296a8b(0x136)]=![];}),_0x29ab15[_0x43ee77(0x102)]&&(_0x29ab15[_0x43ee77(0x102)][_0x43ee77(0x130)](_0x43ee77(0x10e)),_0x29ab15[_0x43ee77(0x102)]['on'](_0x43ee77(0x10e),()=>{})),activeBots['set'](_0x2c526d,_0x29ab15),{'success':!![],'id':_0x2c526d};}catch(_0x2c8b59){return console['error'](_0x43ee77(0xf4),_0x2c8b59[_0x43ee77(0x11b)]),{'success':![],'error':_0x2c8b59[_0x43ee77(0x11b)]};}}function _0x2009(_0xfb9fc6,_0x297c4a){const _0x5cfe34=_0x5cfe();return _0x2009=function(_0x20091a,_0x3ea88b){_0x20091a=_0x20091a-0xd7;let _0x5d7118=_0x5cfe34[_0x20091a];return _0x5d7118;},_0x2009(_0xfb9fc6,_0x297c4a);}app[_0xe675ec(0xe6)](_0xe675ec(0x13b),(_0x26812a,_0x244867)=>{const _0x3c5fcc=_0xe675ec,_0x486750=[];activeBots['forEach']((_0x3313c9,_0xc4e258)=>{const _0xdfdbb6=_0x2009;_0x486750['push']({'id':_0xc4e258,'host':_0x3313c9['serverInfo'][_0xdfdbb6(0x11c)],'port':_0x3313c9[_0xdfdbb6(0xff)][_0xdfdbb6(0xed)],'username':_0x3313c9[_0xdfdbb6(0xff)]['username'],'status':_0x3313c9['status'],'error':_0x3313c9[_0xdfdbb6(0x11a)],'health':_0x3313c9[_0xdfdbb6(0x139)]||0x0,'food':_0x3313c9[_0xdfdbb6(0xdf)]||0x0});}),_0x244867[_0x3c5fcc(0xe1)](_0x486750);}),app[_0xe675ec(0x120)](_0xe675ec(0x13b),(_0x22a1b9,_0x3315dc)=>{const _0x1c82bf=_0xe675ec,{host:_0x108723,port:_0x1b8f02,username:_0x4260de}=_0x22a1b9[_0x1c82bf(0x110)];if(!_0x108723||!_0x1b8f02||!_0x4260de)return _0x3315dc[_0x1c82bf(0xf3)](0x190)[_0x1c82bf(0xe1)]({'error':_0x1c82bf(0xe2)});const _0x5d6848=_0x1c82bf(0x111)+Date[_0x1c82bf(0x106)](),_0x4d48b0=createBot(_0x5d6848,_0x108723,parseInt(_0x1b8f02),_0x4260de);_0x4d48b0[_0x1c82bf(0x13c)]?(saveBotConfigs(),_0x3315dc[_0x1c82bf(0xe1)]({'success':!![],'id':_0x4d48b0['id']})):_0x3315dc['status'](0x1f4)[_0x1c82bf(0xe1)]({'success':![],'error':_0x4d48b0[_0x1c82bf(0x10e)]});}),app['delete']('/api/bots/:id',(_0x4cf3ad,_0x106457)=>{const _0x1d537e=_0xe675ec,_0x44ab7a=_0x4cf3ad[_0x1d537e(0xfe)]['id'],_0x25ac66=activeBots['get'](_0x44ab7a);if(!_0x25ac66)return _0x106457[_0x1d537e(0xf3)](0x194)[_0x1d537e(0xe1)]({'error':_0x1d537e(0xef)});try{_0x25ac66[_0x1d537e(0x11f)]();}catch(_0x99ed62){}activeBots['delete'](_0x44ab7a),saveBotConfigs(),_0x106457[_0x1d537e(0xe1)]({'success':!![]});}),app[_0xe675ec(0x120)](_0xe675ec(0xf0),(_0xc81dd3,_0x49103e)=>{const _0x5ba1a9=_0xe675ec,_0xe1ad20=_0xc81dd3[_0x5ba1a9(0xfe)]['id'],_0x7e4829=activeBots['get'](_0xe1ad20);if(!_0x7e4829)return _0x49103e[_0x5ba1a9(0xf3)](0x194)[_0x5ba1a9(0xe1)]({'error':_0x5ba1a9(0xef)});const {host:_0x17834a,port:_0x115b04,username:_0xd089c1}=_0x7e4829[_0x5ba1a9(0xff)];try{_0x7e4829['end']();}catch(_0x2bf575){}activeBots[_0x5ba1a9(0xee)](_0xe1ad20),setTimeout(()=>{const _0x26c187=_0x5ba1a9,_0x3f86fc=createBot(_0xe1ad20,_0x17834a,_0x115b04,_0xd089c1);_0x49103e[_0x26c187(0xe1)](_0x3f86fc);},0x7d0);});const htmlContent=_0xe675ec(0x119);app['get']('/',(_0x10551a,_0x33ea88)=>{_0x33ea88['send'](htmlContent);});function autoReconnectBots(){const _0x22c2f5=_0xe675ec,_0x533d0f=Array[_0x22c2f5(0xd9)](activeBots['keys']());if(_0x533d0f['length']===0x0){console[_0x22c2f5(0xde)](_0x22c2f5(0x124));return;}console[_0x22c2f5(0xde)]('[AutoReconnect]\x20Starting\x20reconnect\x20for\x20'+_0x533d0f[_0x22c2f5(0x11e)]+_0x22c2f5(0xf8)),_0x533d0f[_0x22c2f5(0x137)]((_0x37373d,_0x52e168)=>{setTimeout(()=>{const _0x423c85=_0x2009,_0xa1945e=activeBots[_0x423c85(0xe6)](_0x37373d);if(!_0xa1945e){console['log'](_0x423c85(0x10d)+_0x37373d+'\x20was\x20not\x20found\x20during\x20operation,\x20skipping.');return;}const {host:_0x7e9658,port:_0x5d7605,username:_0x160edd}=_0xa1945e['serverInfo'];try{_0xa1945e[_0x423c85(0x11f)](),console[_0x423c85(0xde)]('[AutoReconnect\x20-\x20'+_0x37373d+_0x423c85(0x12a));}catch(_0x5def72){}activeBots['delete'](_0x37373d),setTimeout(()=>{const _0x35e7c7=_0x423c85,_0x317cd9=createBot(_0x37373d,_0x7e9658,_0x5d7605,_0x160edd);_0x317cd9[_0x35e7c7(0x13c)]?console[_0x35e7c7(0xde)](_0x35e7c7(0x121)+_0x37373d+_0x35e7c7(0x104)):console[_0x35e7c7(0x10e)](_0x35e7c7(0x121)+_0x37373d+']\x20Reconnect\x20failed:\x20'+_0x317cd9[_0x35e7c7(0x10e)]);},0x7d0);},_0x52e168*0x1388);});}const RECONNECT_INTERVAL=0xa*0x3c*0x3e8;console[_0xe675ec(0xde)]('[AutoReconnect]\x20Auto-reconnect\x20will\x20trigger\x20every\x20'+RECONNECT_INTERVAL/0xea60+_0xe675ec(0x11d)),setInterval(autoReconnectBots,RECONNECT_INTERVAL);const botsRestored=loadAndRestoreBots();!botsRestored&&createDefaultBots();app[_0xe675ec(0x126)](PORT,_0xe675ec(0x122),()=>{const _0x454acc=_0xe675ec;console['log'](_0x454acc(0x134)+PORT);});
+const mineflayer = require("mineflayer");
+const express = require("express");
+const fs = require('fs'); // File system module for persistence
+
+const app = express();
+// 在Hugging Face Spaces中，PORT通常由环境变量自动设置
+const PORT = process.env.PORT || 7860; 
+const BOT_CONFIG_FILE = 'bot_configs.json'; // File to store bot connection parameters
+
+// --- HARDCODED DEFAULT BOT CONFIGURATIONS ---
+const DEFAULT_BOTS = [
+    { host: "syd.retslav.net", port: 10257, username: "retslav003" },
+    { host: "151.242.106.72", port: 25340, username: "vibegames003" },
+    { host: "191.96.231.5", port: 30066, username: "mcserverhost003" },
+    { host: "135.125.9.13", port: 2838, username: "elementiamc003" }
+    // 可以在这里继续添加更多默认配置
+];
+// -------------------------------------------
+
+// Store all active bots
+const activeBots = new Map();
+
+// Middleware
+app.use(express.json());
+
+// --- Persistence Functions ---
+
+// Function to save configurations to file
+function saveBotConfigs() {
+    const configs = [];
+    activeBots.forEach(bot => {
+        // Only save parameters required for connection
+        configs.push(bot.serverInfo); 
+    });
+    try {
+        fs.writeFileSync(BOT_CONFIG_FILE, JSON.stringify(configs, null, 2));
+        console.log(`[Persistence] Saved ${configs.length} bot configurations.`);
+    } catch (e) {
+        console.error('[Persistence] Failed to save bot configs:', e.message);
+    }
+}
+
+// Function to load configurations and recreate bots on startup
+function loadAndRestoreBots() {
+    if (!fs.existsSync(BOT_CONFIG_FILE)) {
+        console.log('[Persistence] Bot configuration file not found. Starting fresh.');
+        return false; // Return false to indicate no bots were restored from file
+    }
+    try {
+        const data = fs.readFileSync(BOT_CONFIG_FILE, 'utf8');
+        const configs = JSON.parse(data);
+        console.log(`[Persistence] Attempting to restore ${configs.length} bots...`);
+        
+        configs.forEach(config => {
+            // Generate a new, unique ID for restored bots
+            const id = `bot_${Date.now()}_restored_${Math.random().toString(36).substring(2, 7)}`;
+            createBot(id, config.host, config.port, config.username);
+        });
+        return configs.length > 0; // Return true if any bots were restored
+    } catch (e) {
+        console.error('[Persistence] Failed to read or parse bot configs:', e.message);
+        return false;
+    }
+}
+
+// --- NEW: Function to create hardcoded default bots ---
+function createDefaultBots() {
+    console.log(`[Defaults] Creating ${DEFAULT_BOTS.length} default bots...`);
+    DEFAULT_BOTS.forEach((config, index) => {
+        // Use a persistent ID for default bots to prevent duplicate creation on restart if persistence fails
+        const id = `bot_default_${index + 1}`;
+        // Only create the default bot if no bot with this ID already exists (e.g., from a quick manual restart)
+        if (!activeBots.has(id)) {
+            createBot(id, config.host, config.port, config.username);
+        } else {
+             console.log(`[Defaults] Bot ${id} already active, skipping creation.`);
+        }
+    });
+    // Save the configurations to the file so they persist across future restarts.
+    saveBotConfigs(); 
+}
+
+// --- Global Error Handlers (Stability FIX) ---
+process.on('uncaughtException', (err) => {
+  // Completely silence all protocol errors
+  if (err.message && (
+    err.message.includes('PartialReadError') ||
+    err.message.includes('Unexpected buffer end') ||
+    err.message.includes('Chunk size')
+  )) {
+    return;
+  }
+  console.error('CRITICAL UNCAUGHT EXCEPTION - EXITING:', err.message, err.stack);
+  // 【核心修复】强制退出，让 PM2/Docker 能够捕获并重启进程。
+  process.exit(1); 
+});
+
+process.on('unhandledRejection', (reason) => {
+  if (reason && reason.message && (
+    reason.message.includes('PartialReadError') ||
+    reason.message.includes('Unexpected buffer end')
+  )) {
+    return;
+  }
+  console.error('Unhandled Promise Rejection:', reason);
+});
+
+
+// --- Bot Creation Function ---
+function createBot(id, host, port, username) {
+  try {
+    const bot = mineflayer.createBot({
+      host: host,
+      port: port,
+      username: username,
+      version: false,
+      hideErrors: false, // We handle errors manually
+      checkTimeoutInterval: 60000,
+      keepAlive: true
+    });
+
+    bot.customId = id;
+    bot.serverInfo = { host, port, username };
+    bot.status = "connecting";
+    bot.lastError = null;
+    bot.spawnLogged = false;
+
+    // Log spawn only once
+    bot.once("spawn", () => {
+      if (!bot.spawnLogged) {
+        console.log(`[${id}] ${username} successfully connected to ${host}:${port}`);
+        bot.spawnLogged = true;
+        bot.status = "online";
+        bot.lastError = null;
+      }
+    });
+
+    bot.on("end", (reason) => {
+      if (reason !== 'socketClosed') {
+        console.log(`[${id}] Connection ended: ${reason}`);
+      }
+      bot.status = "disconnected";
+      bot.spawnLogged = false;
+    });
+
+    bot.on("error", (err) => {
+      // Ignore all protocol-related errors
+      if (err.message && (
+        err.message.includes('PartialReadError') ||
+        err.message.includes('ECONNRESET') ||
+        err.message.includes('Unexpected buffer') ||
+        err.message.includes('Chunk size')
+      )) {
+        return;
+      }
+      
+      // Log only critical errors
+      if (err.code === "ECONNREFUSED" || err.code === "ENOTFOUND" || err.code === "ETIMEDOUT") {
+        console.error(`[${id}] Connection Error: ${err.message}`);
+        bot.status = "error";
+        bot.lastError = err.message;
+      }
+    });
+
+    bot.on("kicked", (reason) => {
+      console.log(`[${id}] Kicked: ${reason}`);
+      bot.status = "kicked";
+      bot.lastError = reason;
+      bot.spawnLogged = false;
+    });
+
+    // Intercept underlying client errors
+    if (bot._client) {
+      bot._client.removeAllListeners('error');
+      bot._client.on('error', () => {}); // Silence underlying errors
+    }
+
+    activeBots.set(id, bot);
+    return { success: true, id };
+  } catch (error) {
+    console.error(`Failed to create bot:`, error.message);
+    return { success: false, error: error.message };
+  }
+}
+
+// --- API Routes ---
+
+app.get("/api/bots", (req, res) => {
+  const bots = [];
+  activeBots.forEach((bot, id) => {
+    bots.push({
+      id: id,
+      host: bot.serverInfo.host,
+      port: bot.serverInfo.port,
+      username: bot.serverInfo.username,
+      status: bot.status,
+      error: bot.lastError,
+      health: bot.health || 0,
+      food: bot.food || 0
+    });
+  });
+  res.json(bots);
+});
+
+app.post("/api/bots", (req, res) => {
+  const { host, port, username } = req.body;
+
+  if (!host || !port || !username) {
+    return res.status(400).json({ error: "Missing required parameters" });
+  }
+
+  const id = `bot_${Date.now()}`;
+  const result = createBot(id, host, parseInt(port), username);
+
+  if (result.success) {
+    saveBotConfigs(); // Save config after adding
+    res.json({ success: true, id: result.id });
+  } else {
+    res.status(500).json({ success: false, error: result.error });
+  }
+});
+
+app.delete("/api/bots/:id", (req, res) => {
+  const id = req.params.id;
+  const bot = activeBots.get(id);
+
+  if (!bot) {
+    return res.status(404).json({ error: "Bot not found" });
+  }
+
+  try {
+    bot.end();
+  } catch (e) {
+    // Ignore end errors
+  }
+  activeBots.delete(id);
+  saveBotConfigs(); // Save config after deleting
+  res.json({ success: true });
+});
+
+app.post("/api/bots/:id/reconnect", (req, res) => {
+  const id = req.params.id;
+  const bot = activeBots.get(id);
+
+  if (!bot) {
+    return res.status(404).json({ error: "Bot not found" });
+  }
+
+  const { host, port, username } = bot.serverInfo;
+  
+  try {
+    bot.end();
+  } catch (e) {
+    // Ignore end errors
+  }
+  
+  activeBots.delete(id);
+
+  // 【延迟修复】增加延迟到 2000ms
+  setTimeout(() => {
+    const result = createBot(id, host, port, username);
+    res.json(result);
+  }, 2000); 
+});
+
+// --- HTML Content (Fully English) ---
+const htmlContent = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Fake Player Manager</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .add-form {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #333; }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        input:focus { outline: none; border-color: #667eea; }
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover { background: #5568d3; }
+        .bot-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .bot-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .bot-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .bot-username { font-size: 1.2em; font-weight: bold; color: #333; }
+        .status {
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        .status.online { background: #4caf50; color: white; }
+        .status.connecting { background: #ff9800; color: white; }
+        .status.error, .status.kicked { background: #f44336; color: white; }
+        .status.disconnected { background: #9e9e9e; color: white; }
+        .bot-info { margin: 10px 0; color: #666; font-size: 0.9em; }
+        .bot-actions { display: flex; gap: 10px; margin-top: 15px; }
+        .bot-actions button { flex: 1; padding: 8px; font-size: 14px; }
+        .delete-btn { background: #f44336; }
+        .delete-btn:hover { background: #d32f2f; }
+        .reconnect-btn { background: #4caf50; }
+        .reconnect-btn:hover { background: #388e3c; }
+        .error-message {
+            color: #f44336;
+            font-size: 0.85em;
+            margin-top: 5px;
+            padding: 5px;
+            background: #ffebee;
+            border-radius: 3px;
+        }
+        .empty-state {
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Minecraft Fake Player Manager</h1>
+        
+        <div class="add-form">
+            <h2 style="margin-bottom: 20px;">Add New Bot</h2>
+            <div class="form-group">
+                <label>Server Host:</label>
+                <input type="text" id="host" placeholder="e.g., syd.retslav.net">
+            </div>
+            <div class="form-group">
+                <label>Port:</label>
+                <input type="number" id="port" placeholder="e.g., 10045">
+            </div>
+            <div class="form-group">
+                <label>Username:</label>
+                <input type="text" id="username" placeholder="e.g., mcplayer">
+            </div>
+            <button onclick="addBot()">➕ Add Bot</button>
+        </div>
+        <div id="botList" class="bot-list"></div>
+    </div>
+    <script>
+        async function loadBots() {
+            try {
+                const response = await fetch('/api/bots');
+                const bots = await response.json();
+                const botList = document.getElementById('botList');
+                if (bots.length === 0) {
+                    botList.innerHTML = '<div class="empty-state">No active bots. Please add one.</div>';
+                    return;
+                }
+                botList.innerHTML = bots.map(bot => {
+                    const healthInfo = bot.status === 'online' ? 
+                        '<div>❤️ Health: ' + bot.health + '/20</div><div>🍖 Food: ' + bot.food + '/20</div>' : '';
+                    const errorInfo = bot.error ? 
+                        '<div class="error-message">Error: ' + bot.error + '</div>' : '';
+                    return '<div class="bot-card">' +
+                        '<div class="bot-header">' +
+                            '<div class="bot-username">' + bot.username + '</div>' +
+                            '<div class="status ' + bot.status + '">' + getStatusText(bot.status) + '</div>' +
+                        '</div>' +
+                        '<div class="bot-info"><div>🌐 ' + bot.host + ':' + bot.port + '</div>' + healthInfo + '</div>' +
+                        errorInfo +
+                        '<div class="bot-actions">' +
+                            '<button class="reconnect-btn" onclick="reconnectBot(\\'' + bot.id + '\\')">🔄 Reconnect</button>' +
+                            '<button class="delete-btn" onclick="deleteBot(\\'' + bot.id + '\\')">🗑️ Delete</button>' +
+                        '</div></div>';
+                }).join('');
+            } catch (error) {
+                console.error('Failed to load bots:', error);
+            }
+        }
+        function getStatusText(status) {
+            const map = {online:'Online',connecting:'Connecting',error:'Error',kicked:'Kicked',disconnected:'Disconnected'};
+            return map[status] || status;
+        }
+        async function addBot() {
+            const host = document.getElementById('host').value;
+            const port = document.getElementById('port').value;
+            const username = document.getElementById('username').value;
+            if (!host || !port || !username) { alert('Please fill in all fields'); return; }
+            try {
+                const response = await fetch('/api/bots', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ host, port: parseInt(port), username })
+                });
+                if (response.ok) {
+                    document.getElementById('host').value = '';
+                    document.getElementById('port').value = '';
+                    document.getElementById('username').value = '';
+                    loadBots();
+                } else {
+                    const error = await response.json();
+                    alert('Failed to add bot: ' + error.error);
+                }
+            } catch (error) {
+                alert('Failed to add bot: ' + error.message);
+            }
+        }
+        async function deleteBot(id) {
+            if (!confirm('Are you sure you want to delete this bot?')) return;
+            try {
+                await fetch('/api/bots/' + id, { method: 'DELETE' });
+                loadBots();
+            } catch (error) {
+                alert('Failed to delete bot: ' + error.message);
+            }
+        }
+        async function reconnectBot(id) {
+            try {
+                await fetch('/api/bots/' + id + '/reconnect', { method: 'POST' });
+                // 确保有足够的延迟来等待后端 2000ms 的重连操作
+                setTimeout(loadBots, 2500); 
+            } catch (error) {
+                alert('Failed to reconnect bot: ' + error.message);
+            }
+        }
+        setInterval(loadBots, 3000);
+        loadBots();
+    </script>
+</body>
+</html>`;
+
+app.get("/", (req, res) => {
+  res.send(htmlContent);
+});
+
+// --- Auto-Reconnect Logic ---
+
+// Function to reconnect all bots sequentially with a 5-second interval
+function autoReconnectBots() {
+  const idsToReconnect = Array.from(activeBots.keys());
+
+  if (idsToReconnect.length === 0) {
+    console.log('[AutoReconnect] No active bots to reconnect.');
+    return;
+  }
+
+  console.log(`[AutoReconnect] Starting reconnect for ${idsToReconnect.length} bots...`);
+
+  idsToReconnect.forEach((id, index) => {
+    // Use setTimeout to ensure a 5-second gap between each bot's reconnect operation
+    setTimeout(() => {
+      const bot = activeBots.get(id);
+
+      if (!bot) {
+        console.log(`[AutoReconnect] Bot ${id} was not found during operation, skipping.`);
+        return;
+      }
+
+      const { host, port, username } = bot.serverInfo;
+
+      // 1. End current connection
+      try {
+        bot.end();
+        console.log(`[AutoReconnect - ${id}] Ending connection...`);
+      } catch (e) {
+        // Ignore end errors
+      }
+      activeBots.delete(id); // Remove immediately to prevent misleading status queries
+
+      // 2. Create a new connection after a 2000ms delay
+      // 【延迟修复】增加延迟到 2000ms
+      setTimeout(() => {
+        const result = createBot(id, host, port, username);
+        if (result.success) {
+          console.log(`[AutoReconnect - ${id}] Reconnect attempt initiated.`);
+        } else {
+          console.error(`[AutoReconnect - ${id}] Reconnect failed: ${result.error}`);
+        }
+      }, 2000); // 2-second delay to ensure connection is fully closed
+    }, index * 5000); // Core logic: index * 5000ms ensures each reconnect operation is 5 seconds apart
+  });
+}
+
+// Execute autoReconnectBots every 10 minutes (10 * 60 * 1000 ms)
+const RECONNECT_INTERVAL = 10 * 60 * 1000;
+console.log(`[AutoReconnect] Auto-reconnect will trigger every ${RECONNECT_INTERVAL / 60000} minutes.`);
+setInterval(autoReconnectBots, RECONNECT_INTERVAL);
+
+// Call the restore function on startup
+const botsRestored = loadAndRestoreBots();
+
+// If no bots were restored from file (e.g., first run or file lost), load the defaults
+if (!botsRestored) {
+    createDefaultBots();
+}
+
+// Start the server
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Service running on port ${PORT}`);
+});
